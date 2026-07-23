@@ -274,3 +274,6 @@ body{background:#fff4f2;color:#4d353c}
 .experience-card.card-photo div,.experience-card.heart-card div{background:rgba(255,249,246,.28);backdrop-filter:blur(1px)}
 .experience-card.card-photo h3,.experience-card.heart-card h3{font-weight:600}
 .experience-card.card-photo p,.experience-card.heart-card p,.experience-card.card-photo>span,.experience-card.heart-card>span{font-weight:700}
+
+.experience-card.card-photo h3,.experience-card.heart-card h3{font-weight:800;color:#7f2446;text-shadow:0 1px 2px rgba(255,255,255,.9)}
+.experience-card.card-photo p,.experience-card.heart-card p,.experience-card.card-photo>span,.experience-card.heart-card>span{font-weight:800;color:#7f2446}
