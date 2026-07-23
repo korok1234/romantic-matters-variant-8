@@ -286,3 +286,7 @@ body{background:#fff4f2;color:#4d353c}
 .experience-card.card-photo h3,.experience-card.heart-card h3{font-family:Italiana,serif;font-weight:600;letter-spacing:0;line-height:1;-webkit-text-stroke:.12px #7f2446}
 .experience-card.card-photo p,.experience-card.heart-card p{font-size:12px;font-weight:700;letter-spacing:0}
 .experience-card.card-photo>span,.experience-card.heart-card>span{font-size:11px;font-weight:700}
+
+/* Keep the couple—especially the woman—inside the hero crop. */
+.hero{background-position:70% center}
+@media(max-width:800px){.hero{background-position:79% center}}
