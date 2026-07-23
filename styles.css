@@ -254,3 +254,7 @@ body{background:#fff4f2;color:#4d353c}
 .carousel-dots button.active,.photo-dots button.active{background:#a6546c}
 .package-badge{background:#fee0e6;color:#744150}
 .photo-track figure,.package-static-photos:not(.floral-photo) img,.experience-card.card-photo img{background:#65404c}
+
+/* Show the original photos in service cards 01 and 02 without a color overlay. */
+.experience-card.card-photo::after,.experience-card.heart-card::after{display:none}
+.experience-card.card-photo h3,.experience-card.card-photo p,.experience-card.card-photo>span,.experience-card.heart-card h3,.experience-card.heart-card p,.experience-card.heart-card>span{text-shadow:0 2px 12px rgba(35,20,25,.8)}
