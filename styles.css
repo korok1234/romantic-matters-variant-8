@@ -281,3 +281,8 @@ body{background:#fff4f2;color:#4d353c}
 .experience-card.card-photo h3,.experience-card.heart-card h3{font-family:"DM Sans",sans-serif;font-weight:900;letter-spacing:-.035em;line-height:1.02;-webkit-text-stroke:.35px #7f2446}
 .experience-card.card-photo p,.experience-card.heart-card p{font-size:13px;font-weight:900;letter-spacing:.01em}
 .experience-card.card-photo>span,.experience-card.heart-card>span{font-weight:900;font-size:12px}
+
+/* Restore the elegant title face with only a subtle weight increase. */
+.experience-card.card-photo h3,.experience-card.heart-card h3{font-family:Italiana,serif;font-weight:600;letter-spacing:0;line-height:1;-webkit-text-stroke:.12px #7f2446}
+.experience-card.card-photo p,.experience-card.heart-card p{font-size:12px;font-weight:700;letter-spacing:0}
+.experience-card.card-photo>span,.experience-card.heart-card>span{font-size:11px;font-weight:700}
