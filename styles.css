@@ -290,3 +290,5 @@ body{background:#fff4f2;color:#4d353c}
 /* Keep the couple—especially the woman—inside the hero crop. */
 .hero{background-position:70% center}
 @media(max-width:800px){.hero{background-position:79% center}}
+
+@media(max-width:800px){.hero{background-position:90% center}}
