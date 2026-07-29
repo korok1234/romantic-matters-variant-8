@@ -315,3 +315,16 @@ body{background:#fff4f2;color:#4d353c}
 /* Premium package slides. */
 .package-slide.premium-slide{background:linear-gradient(135deg,#744553,#b9637d)}
 .package-slide.floral-premium{background:linear-gradient(135deg,#a9516d,#d9879d)}
+
+/* Harbour Yes yacht experience. */
+.experience-card.yacht-card img{object-fit:cover!important;object-position:center 48%}
+.experience-card.yacht-card h3{font-size:clamp(27px,3vw,42px)}
+.harbour-section{background:#edf1f2}
+.harbour-photo{width:min(1100px,84vw);margin-bottom:42px}
+.harbour-photo .photo-track figure{background:#dfe9ec}
+.harbour-photo img{width:100%;height:auto;max-height:760px;object-fit:contain}
+.harbour-slide{width:100%;min-height:0;background:linear-gradient(135deg,#38576a,#6d8790);display:block}
+.harbour-slide .slide-details{min-height:0;padding:54px 8vw}
+.harbour-slide .slide-details ul{columns:1}
+.harbour-slide .slide-details>h3,.harbour-slide .slide-details>ul,.harbour-slide .timing-note{max-width:900px;width:100%;margin-left:auto;margin-right:auto}
+@media(max-width:800px){.harbour-photo{width:90vw;margin-bottom:30px}.harbour-photo img{max-height:none}.harbour-slide .slide-details{padding:34px 24px}.harbour-slide .slide-details h3{font-size:42px}}
