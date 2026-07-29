@@ -305,3 +305,9 @@ body{background:#fff4f2;color:#4d353c}
 .timing-note{margin-top:10px;padding-top:18px;border-top:1px solid rgba(255,255,255,.22)}
 .timing-note p:last-child{margin:8px 0 0;line-height:1.65;color:#fff0f3}
 @media(max-width:800px){.single-package-wrap{width:90vw}.above-clouds-slide .slide-details{min-height:0;padding:34px 24px}.above-clouds-slide .slide-details h3{font-size:42px}}
+
+.experience-card.cloud-card img{object-fit:cover!important;object-position:center 64%}
+.above-clouds-photo{width:min(720px,84vw);margin-bottom:42px}
+.above-clouds-photo .photo-track figure{background:#f7e9ed}
+.above-clouds-photo img{width:100%;height:auto;max-height:780px;object-fit:contain}
+@media(max-width:800px){.above-clouds-photo{width:90vw;margin-bottom:30px}.above-clouds-photo img{max-height:none}}
