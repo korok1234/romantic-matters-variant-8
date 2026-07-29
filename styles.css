@@ -311,3 +311,7 @@ body{background:#fff4f2;color:#4d353c}
 .above-clouds-photo .photo-track figure{background:#f7e9ed}
 .above-clouds-photo img{width:100%;height:auto;max-height:780px;object-fit:contain}
 @media(max-width:800px){.above-clouds-photo{width:90vw;margin-bottom:30px}.above-clouds-photo img{max-height:none}}
+
+/* Premium package slides. */
+.package-slide.premium-slide{background:linear-gradient(135deg,#744553,#b9637d)}
+.package-slide.floral-premium{background:linear-gradient(135deg,#a9516d,#d9879d)}
