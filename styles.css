@@ -294,3 +294,14 @@ body{background:#fff4f2;color:#4d353c}
 @media(max-width:800px){.hero{background-position:90% center}}
 
 @media(max-width:800px){.hero{background-position:85% center}}
+
+/* Above the Clouds single-package presentation. */
+.above-clouds-section{background:#f7e9ed}
+.single-package-wrap{width:min(1100px,90vw);margin:0 auto}
+.above-clouds-slide{width:100%;min-height:0;background:linear-gradient(135deg,#6d7187,#a7778a);display:block}
+.above-clouds-slide .slide-details{min-height:0;padding:54px 8vw}
+.above-clouds-slide .slide-details ul{columns:1}
+.above-clouds-slide .slide-details>h3,.above-clouds-slide .slide-details>.slide-price,.above-clouds-slide .slide-details>ul,.above-clouds-slide .timing-note{max-width:900px;width:100%;margin-left:auto;margin-right:auto}
+.timing-note{margin-top:10px;padding-top:18px;border-top:1px solid rgba(255,255,255,.22)}
+.timing-note p:last-child{margin:8px 0 0;line-height:1.65;color:#fff0f3}
+@media(max-width:800px){.single-package-wrap{width:90vw}.above-clouds-slide .slide-details{min-height:0;padding:34px 24px}.above-clouds-slide .slide-details h3{font-size:42px}}
