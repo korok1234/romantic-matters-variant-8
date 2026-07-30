@@ -332,3 +332,6 @@ body{background:#fff4f2;color:#4d353c}
 /* Preserve the portrait format of YouTube Shorts. */
 .video-frame.video-short{aspect-ratio:9/16;width:min(100%,430px);justify-self:center}
 @media(max-width:800px){.video-frame.video-short{width:min(100%,390px);margin:0 auto}}
+
+/* Stronger contrast for the highlighted home-page phrase. */
+.services .section-head h2 em{color:#7f2446}
