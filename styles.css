@@ -328,3 +328,7 @@ body{background:#fff4f2;color:#4d353c}
 .harbour-slide .slide-details ul{columns:1}
 .harbour-slide .slide-details>h3,.harbour-slide .slide-details>ul,.harbour-slide .timing-note{max-width:900px;width:100%;margin-left:auto;margin-right:auto}
 @media(max-width:800px){.harbour-photo{width:90vw;margin-bottom:30px}.harbour-photo img{max-height:none}.harbour-slide .slide-details{padding:34px 24px}.harbour-slide .slide-details h3{font-size:42px}}
+
+/* Preserve the portrait format of YouTube Shorts. */
+.video-frame.video-short{aspect-ratio:9/16;width:min(100%,430px);justify-self:center}
+@media(max-width:800px){.video-frame.video-short{width:min(100%,390px);margin:0 auto}}
